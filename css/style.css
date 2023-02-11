@@ -62,6 +62,7 @@ body {
     text-align: center;
     padding: 24px;
     margin: 0 auto;
+
 }
 
 .aboutme-container {
@@ -158,9 +159,9 @@ a:hover, a:active {
 .hero-content .btn, .hero-content .btn:visited  {
     width: 100%;
     max-width: 260px;
-    background: #f08527;
-    color: #1b1b27;
-    border: 2px solid #f08527;
+    background: #282a36;
+    color: #50fa7b;
+    border: 2px solid #50fa7b;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -170,6 +171,7 @@ a:hover, a:active {
     text-align: center;
     margin: 12px auto 24px;
     display: block;
+    transition: 150ms;
 }
 
 .hero-content .btn:focus {
@@ -178,9 +180,10 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
-    color: #F1F1F1;
-    border: 2px solid #666666;
+    background: #50fa7b;
+    color: #282a36;
+    border: 2px solid #50fa7b;
+    transition: 150ms;
 }
 
 .btn, .btn:visited  {
