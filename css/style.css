@@ -54,6 +54,9 @@ body {
     height: 80vh;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hero-content {
@@ -123,6 +126,41 @@ body {
     text-align: center;
 }
 
+.contact-container {
+    background: #29326a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+    flex-flow: column;
+}
+
+.contact-item {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-item-social-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item-social {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+
 /* Links and Link Buttons
 ========================================================================== */
 a {
@@ -160,8 +198,8 @@ a:hover, a:active {
     width: 100%;
     max-width: 260px;
     background: #282a36;
-    color: #50fa7b;
-    border: 2px solid #50fa7b;
+    color: #74b44a;
+    border: 2px solid #74b44a;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -180,9 +218,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #50fa7b;
+    background: #74b44a;
     color: #282a36;
-    border: 2px solid #50fa7b;
+    border: 2px solid #74b44a;
     transition: 150ms;
 }
 
